@@ -16,7 +16,7 @@ router.get('/', function(req, res, next) {
       var nouvChn = data.replace(re, '}');
       fs.appendFile(path.join('D:', 'spotinfo', 'new_T_ent.json'), nouvChn, function (err) {
           if (err) throw err;
-          console.log('Saved!');
+          console.log('Saved! ma gueule');
       }); 
 
     });
